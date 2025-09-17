@@ -35,6 +35,7 @@ export const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
+      
       <div className="container">
         <div className="section-title">
           <h2>Contact Us</h2>
