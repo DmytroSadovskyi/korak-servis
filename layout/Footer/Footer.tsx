@@ -21,8 +21,8 @@ export const Footer = () => {
             <h3>KORAK SERVIS</h3>
             <p>Professional Electrical & Security Solutions for residential and commercial clients. Trusted experts with years of experience.</p>
             <div className="footer-social">
-              <a href="#" aria-label='facebook'><i className="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/korak_servis?igsh=azhweXAwY2VzbDNr&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label='instagram'><i className="fab fa-instagram"></i></a>
+              <a href="#" aria-label='facebook'><i className="fab fa-facebook-f" aria-label='facebook'></i></a>
+              <a href="https://www.instagram.com/korak_servis?igsh=azhweXAwY2VzbDNr&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label='instagram'><i className="fab fa-instagram" aria-label='instagram'></i></a>
             
             </div>
           </div>

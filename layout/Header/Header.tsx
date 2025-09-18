@@ -7,8 +7,8 @@ import Image from 'next/image';
 const links = [
   { name: 'Home', href: '#home' },
   { name: 'About Us', href: '#about' },
+  { name: 'Why Choose Us', href: '#why-choose-us' },
   { name: 'Services', href: '#services' },
-    { name: 'Why Choose Us', href: '#why-choose-us' },
   { name: 'Executed Works', href: '#executed-works' },
   // { name: 'Testimonials', href: '#testimonials' },
   { name: 'Contact', href: '#contact' },
@@ -57,7 +57,7 @@ export const  Header = () => {
           </div>
         </div>
         <button className="mobile-menu-btn" onClick={handleToggleMenu}>
-          <i className={isMenuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
+          <i className={isMenuOpen ? 'fas fa-times' : 'fas fa-bars'} aria-label='menu button'></i>
         </button>
         <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
           <ul>
