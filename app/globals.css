@@ -143,10 +143,11 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(26, 54, 93, 0.8), rgba(26, 54, 93, 0.9)), url('https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80') no-repeat center center/cover;
+  background: linear-gradient(rgba(26, 54, 93, 0.8), rgba(26, 54, 93, 0.9)), url('/hero-image.webp') no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 120px 0;
+  position: relative;
 }
 
 .hero-content {
@@ -242,6 +243,9 @@ body {
   font-size: 2.5rem;
   padding: 30px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .service-content {
@@ -433,6 +437,9 @@ body {
   font-size: 2.5rem;
   padding: 30px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .why-choose-us-content {
@@ -557,6 +564,7 @@ body {
   margin-bottom: 15px;
   display: flex;
   align-items: center;
+  gap: 10px
 }
 
 .footer-contact p a {
@@ -564,7 +572,7 @@ body {
   text-decoration: none;
 }
 
-.footer-contact i {
+.footer-contact svg > path {
   margin-right: 15px;
   color: var(--secondary);
   font-size: 1.2rem;
@@ -600,8 +608,8 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   color: white;

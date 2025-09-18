@@ -1,4 +1,8 @@
 import Link from 'next/link';
+import { FaShieldAlt } from 'react-icons/fa';
+import { FaBolt, FaHouseFloodWater } from 'react-icons/fa6';
+
+
 
 export const Services = () => {
   return (
@@ -10,7 +14,7 @@ export const Services = () => {
         </div>
         <div className="services-grid">
           <div className="service-card">
-            <div className="service-icon"><i className="fas fa-bolt"></i></div>
+            <div className="service-icon"><FaBolt /></div>
             <div className="service-content">
               <h3>ELECTRICAL WORK</h3>
               <ul>
@@ -25,7 +29,7 @@ export const Services = () => {
           </div>
           
           <div className="service-card">
-            <div className="service-icon"><i className="fas fa-house-flood-water"></i></div>
+            <div className="service-icon"><FaHouseFloodWater /></div>
             <div className="service-content">
               <h3>HYDRO INSULATION SERVICES</h3>
               <ul>
@@ -39,7 +43,7 @@ export const Services = () => {
             </div>
           </div>
           <div className="service-card">
-            <div className="service-icon"><i className="fas fa-shield-alt"></i></div>
+            <div className="service-icon"><FaShieldAlt/></div>
             <div className="service-content">
               <h3>SECURITY SYSTEM INSTALLATION</h3>
               <ul>

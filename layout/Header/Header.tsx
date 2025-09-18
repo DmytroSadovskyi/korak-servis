@@ -1,8 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
 import Image from 'next/image';
+import { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const links = [
   { name: 'Home', href: '#home' },
@@ -57,7 +58,7 @@ export const  Header = () => {
           </div>
         </div>
         <button className="mobile-menu-btn" onClick={handleToggleMenu}>
-          <i className={isMenuOpen ? 'fas fa-times' : 'fas fa-bars'} aria-label='menu button'></i>
+          {isMenuOpen ? <FaTimes aria-label='menu button'/> : <FaBars aria-label='menu button'/>}
         </button>
         <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
           <ul>
