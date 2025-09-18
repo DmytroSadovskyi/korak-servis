@@ -21,16 +21,16 @@ export const Footer = () => {
             <h3>KORAK SERVIS</h3>
             <p>Professional Electrical & Security Solutions for residential and commercial clients. Trusted experts with years of experience.</p>
             <div className="footer-social">
-              <a href="#"><i className="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/korak_servis?igsh=azhweXAwY2VzbDNr&utm_source=qr" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+              <a href="#" aria-label='facebook'><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/korak_servis?igsh=azhweXAwY2VzbDNr&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label='instagram'><i className="fab fa-instagram"></i></a>
             
             </div>
           </div>
           <div className="footer-section footer-contact">
             <h3>Contact Us</h3>
-            <p><a href="tel:+385916154914"><i className="fas fa-phone"></i> +385 91 615 4914</a></p>
-           <p><a href="mailto:korakservis@gmail.com"><i className="fas fa-envelope"></i> korakservis@gmail.com</a></p> 
-           <p><i className="fas fa-map-marker-alt"></i> Ulica Ljudevita Gaja 7A, 47240, Slunj</p> 
+            <p><a href="tel:+385916154914" aria-label='phone number'><i className="fas fa-phone"></i> +385 91 615 4914</a></p>
+           <p><a href="mailto:korakservis@gmail.com" aria-label='email'><i className="fas fa-envelope"></i> korakservis@gmail.com</a></p> 
+           <p><i className="fas fa-map-marker-alt" aria-label='location'></i> Ulica Ljudevita Gaja 7A, 47240, Slunj</p> 
           </div>
           <div className="footer-section footer-links">
             <h3>Quick Links</h3>

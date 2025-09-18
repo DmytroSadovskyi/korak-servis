@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export const About = () => {
@@ -13,7 +14,10 @@ export const About = () => {
             <Link href="#contact" className="btn">Contact Us Today</Link>
           </div>
           <div className="about-image">
-            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789" alt="Korak Servis Team" />
+            <Image src="/photo-14.jpg" alt="Korak Servis Team" width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }} />
           </div>
         </div>
       </div>
