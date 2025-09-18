@@ -2,11 +2,11 @@ import Link from 'next/link';
 
 const links = [
   { name: 'Home', href: '#home' },
-  { name: 'Services', href: '#services' },
   { name: 'About Us', href: '#about' },
-  { name: 'Executed Works', href: '#executed-works' },
-  { name: 'Testimonials', href: '#testimonials' },
   { name: 'Why Choose Us', href: '#why-choose-us' },
+  { name: 'Services', href: '#services' },
+  { name: 'Executed Works', href: '#executed-works' },
+  // { name: 'Testimonials', href: '#testimonials' },
   { name: 'Contact', href: '#contact' },
 ]
 

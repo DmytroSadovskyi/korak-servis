@@ -39,7 +39,7 @@ export const Contact = () => {
       <div className="container">
         <div className="section-title">
           <h2>Contact Us</h2>
-          <p>Get in touch for a free consultation and quote</p>
+          <p>Please describe your question and we will answer you</p>
         </div>
 
         <form className="contact-form" onSubmit={handleSubmit(onSubmit)} noValidate>
