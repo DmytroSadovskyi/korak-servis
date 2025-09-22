@@ -2,8 +2,9 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { useScrollToSection } from '@/hooks/scrollToSection';
 
 const links = [
   { name: 'Home', href: '#home' },
@@ -18,29 +19,12 @@ const links = [
 
 export const  Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const scrollToSection = useScrollToSection();
 
   const handleToggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
    
   };
-
-  const scrollToSection = useCallback((id: string) => {
-    if (typeof window === 'undefined' || typeof document === 'undefined') return;
-    const element = document.getElementById(id);
-    const header = document.querySelector('.header') as HTMLElement | null;
-
-    if (!element) return;
-
-    const headerOffset = header?.offsetHeight || 0;
-    const elementPosition = element.getBoundingClientRect().top + window.scrollY;
-    const offsetPosition = elementPosition - headerOffset;
-
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: 'smooth',
-    });
-  }, []);
-
 
   useEffect(() => {
     if (isMenuOpen && typeof window !== 'undefined') {

@@ -1,10 +1,12 @@
-import Link from 'next/link';
+'use client'
+
 import { FaShieldAlt } from 'react-icons/fa';
 import { FaBolt, FaHouseFloodWater } from 'react-icons/fa6';
 import { IServiceCardProps } from './props';
+import { LinkToSection } from '../LinkToSection';
 
 export const ServiceCard = ({ title, list }: IServiceCardProps) => {
-
+ 
   const setIcon = (title: string) => {
     switch (title) { 
       case 'electrical work':
@@ -19,7 +21,7 @@ export const ServiceCard = ({ title, list }: IServiceCardProps) => {
   }
 
   return (
-     <div className="service-card">
+     <li className="service-card">
             <div className="service-icon">{setIcon(title)}</div>
             <div className="service-content">
               <h3 className='uppercase text-center'>{title}</h3>
@@ -28,8 +30,8 @@ export const ServiceCard = ({ title, list }: IServiceCardProps) => {
                   <li key={index}>{item}</li>
                 ))}
               </ul>
-              <Link href="#contact" className="btn">Learn More</Link>
+             <LinkToSection href="#contact" className="btn">Learn More</LinkToSection>
             </div>
-          </div>
+          </li>
   );
 };

@@ -2,7 +2,7 @@ import { ExecutedWork } from "@/types";
 import Image from "next/image";
 
 export const ExecutedWorkCard = ({ executedWork, handleImageClick }: { executedWork: ExecutedWork, handleImageClick: (src: string) => void }) => { 
-  return <div className="project-card">
+  return <li className="project-card">
               <div className="project-image">
                 <Image src={executedWork.imageSource} alt={executedWork.imageAlt} fill style={{ objectFit: "cover" }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
               </div>
@@ -14,5 +14,5 @@ export const ExecutedWorkCard = ({ executedWork, handleImageClick }: { executedW
                   <button className="btn view-btn" onClick={() => handleImageClick(executedWork.imageSource)}>View Image</button>
                 </div>
               </div>
-            </div>
+            </li>
 }
