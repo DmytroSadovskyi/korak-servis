@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const links = [
@@ -16,23 +16,6 @@ const links = [
 ]
 
 
-const scrollToSection = (id: string) => {
-  const element = document.getElementById(id);
-  const header = document.querySelector('.header') as HTMLElement | null;
-
-  if (!element) return;
-
-  const headerOffset = header?.offsetHeight || 0;
-  const elementPosition = element.getBoundingClientRect().top + window.scrollY;
-  const offsetPosition = elementPosition - headerOffset;
-
-  window.scrollTo({
-    top: offsetPosition,
-    behavior: 'smooth',
-  });
-};
-
-
 export const  Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -41,21 +24,44 @@ export const  Header = () => {
    
   };
 
+  const scrollToSection = useCallback((id: string) => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') return;
+    const element = document.getElementById(id);
+    const header = document.querySelector('.header') as HTMLElement | null;
+
+    if (!element) return;
+
+    const headerOffset = header?.offsetHeight || 0;
+    const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+    const offsetPosition = elementPosition - headerOffset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  }, []);
+
+
+  useEffect(() => {
+    if (isMenuOpen && typeof window !== 'undefined') {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+  }, [isMenuOpen]);
 
   const handleAnchorClick = (id: string) => {
     scrollToSection(id);
     setIsMenuOpen(false);
   };
+
   return (
     <header className="header">
       <div className="container header-container">
         <div className="logo">
-          <div>
             <Link href="/">
               <Image src="/logo-2.png" alt="Korak Servis Logo" width={70} height={90} />
             </Link>
-          
-          </div>
         </div>
         <button className="mobile-menu-btn" onClick={handleToggleMenu}>
           {isMenuOpen ? <FaTimes aria-label='menu button'/> : <FaBars aria-label='menu button'/>}

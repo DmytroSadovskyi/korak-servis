@@ -1,0 +1,90 @@
+[
+  { 
+    "id": "1",
+    "imageSource": "/photo-1.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "title": "Industrial Waterproofing",
+    "description": "Comprehensive waterproofing for industrial facility basement",
+    "year": "2023"
+  },
+  {
+    "id": "2",
+    "imageSource": "/photo-2.jpg",
+    "imageAlt": "Residential Executed Work",
+    "title": "Industrial Waterproofing",
+    "description": "Comprehensive waterproofing for the balcony",
+    "year": "2022"
+  },
+  {
+    "id": "3",
+    "imageSource": "/photo-3.jpg",
+    "imageAlt": "Waterproofing Executed Work",
+    "title": "Industrial Waterproofing",
+    "description": "Comprehensive waterproofing for a bridge",
+    "year": "2021"
+  },
+  {
+    "id": "4",
+    "imageSource": "/photo-4.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "title": "Industrial Waterproofing",
+    "description": "Comprehensive waterproofing for industrial facility basement",
+    "year": "2023"
+  },
+  {
+    "id": "5",
+    "imageSource": "/photo-5.jpg",
+    "imageAlt": "Residential Security System Executed Work",
+    "title": "Residential Security System",
+    "description": "Smart home security installation with CCTV and mobile monitoring",
+    "year": "2022"
+  },
+  {
+    "id": "6",
+    "imageSource": "/photo-6.jpg",
+    "imageAlt": "Residential Executed Work",
+    "title": "Residential Security System",
+    "description": "Smart home security installation with CCTV and mobile monitoring",
+    "year": "2021"
+  },
+  {
+    "id": "7",
+    "imageSource": "/photo-7.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "title": "Residential Security System",
+    "description": "Smart home security installation with CCTV and mobile monitoring",
+    "year": "2023"
+  },
+  {
+    "id": "8",
+    "imageSource": "/photo-8.jpg",
+    "imageAlt": "Residential Executed Work",
+    "title": "Residential Security System",
+    "description": "Smart home security installation with CCTV and mobile monitoring",
+    "year": "2022"
+  },
+  {
+    "id": "9",
+    "title": "Commercial Complex Wiring",
+    "description": "Complete electrical system installation for a 50,000 sq ft commercial complex",
+    "imageSource": "/photo-9.jpg",
+    "imageAlt": "Electrical Executed Work",
+    "year": "2021"
+  },
+  {
+    "id": "10",
+    "title": "Commercial Complex Wiring",
+    "description": "Complete electrical system installation for a 50,000 sq ft commercial complex",
+    "imageSource": "/photo-11.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "year": "2022"
+  },
+  {
+    "id": "11",
+    "title": "Commercial Complex Wiring",
+    "description": "Complete electrical system installation for a 50,000 sq ft commercial complex",
+    "imageSource": "/photo-12.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "year": "2021"
+  }
+]

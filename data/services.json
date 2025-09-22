@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "title": "electrical work",
+    "list": [
+      "Residential & Commercial Wiring",
+      "Lighting Installation & Upgrades",
+      "Panel Upgrades & Repairs",
+      "EV Charger Installation",
+      "Troubleshooting & Maintenance"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "hydro insulation services",
+    "list": [
+      "Basement & Foundation Waterproofing",
+      "Roof & Wall Moisture Protection",
+      "Interior & Exterior Solutions",
+      "Mold & Mildew Prevention",
+      "Energy-Efficient Barrier Installations"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "security system installation",
+    "list": [
+      "Smart Home Security Systems",
+      "CCTV Camera Setup",
+      "Motion Detectors & Alarms",
+      "Door & Window Sensors",
+      "Remote Monitoring & Mobile Alerts"
+    ]
+  }
+ 
+]

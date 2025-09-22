@@ -88,16 +88,6 @@ body {
   align-items: center;
 }
 
-.logo h1 {
-  font-size: 28px;
-  margin-bottom: 5px;
-}
-
-.logo p {
-  font-size: 14px;
-  opacity: 0.9;
-  color: var(--secondary);
-}
 
 .nav ul {
   display: flex;
@@ -301,7 +291,7 @@ body {
 
 .project-image {
   position: relative;
-  width: 100%;
+  width: auto;
   height: 200px;
 }
 
@@ -637,6 +627,7 @@ body {
   .about-image {
     order: -1;
   }
+  
 }
 
 @media (max-width: 768px) {
