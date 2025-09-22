@@ -44,7 +44,7 @@ export const  Header = () => {
       <div className="container header-container">
         <div className="logo">
             <Link href="/">
-              <Image src="/logo-2.png" alt="Korak Servis Logo" width={70} height={90} />
+              <Image src="/logo.svg" alt="Korak Servis Logo" width={0} height={0} className='logo-image'/>
             </Link>
         </div>
         <button className="mobile-menu-btn" onClick={handleToggleMenu}>
