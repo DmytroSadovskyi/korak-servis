@@ -1,0 +1,246 @@
+{
+  "metaData": {
+    "title": "Korak Servis - Profesionalne elektroinstalacije, izolacije i sigurnosni sustavi",
+    "description": "Vaš zaufani partner za potrebe elektroinstalacija, izolacije i sigurnosnih sustava"
+  },
+  "LocaleSwitcher": {
+    "hr": "Hrvatski",
+    "en": "English",
+    "label": "Jezik"
+  },
+  "header": {
+    "logoAlt": "Korak Servis Logo", 
+    "toggleAriaLabel": "dugme izbornika",
+    "links": [
+      { "name": "Početna", 
+        "href": "#home" 
+      },
+      { "name": "O nama", 
+         "href": "#about"
+      },
+      { 
+        "name": "Zašto odabrati nas", 
+        "href": "#why-choose-us" 
+      },
+      { 
+       "name": "Usluge",
+       "href": "#services"
+      },
+      { 
+       "name": "Izvedeni radovi",
+       "href": "#executed-works" 
+      },
+  
+      { 
+      "name": "Kontakt", 
+      "href": "#contact" 
+      }
+    ]
+  },
+  "hero": {
+    "title": "Profesionalna električna i sigurnosna rješenja",
+    "subtitle": "Vaš pouzdani partner za sve potrebe u vezi s električnim instalacijama, izolacijom i sigurnosnim sustavima",
+    "firstLinkText": "Naše usluge",
+    "secondLinkText": "Zatražite besplatnu ponudu"
+  },
+  "about": {
+    "title": "O Korak Servisu",
+    "firstSubtitle": "S godinama iskustva u industriji, Korak Servis se etablirao kao pouzdan pružatelj profesionalnih električnih i sigurnosnih rješenja za stambene i poslovne klijente.",
+    "secondSubtitle": "Naši tehničari predani su pružanju vrhunskih usluga, koristeći najnovije alate i tehnologije kako bi osigurali vaše potpuno zadovoljstvo.",
+    "thirdSubtitle": "Ponosimo se našom pouzdanošću, pažnjom na detalje i predanošću sigurnosti u svakom projektu koji preuzimamo.",
+    "linkText": "Kontaktirajte nas već danas",
+    "imageAlt": "Korak Servis momčad",
+    "linkHref": "#contact"
+  },
+  "whyChooseUs": {
+    "title": "Zašto odabrati nas",
+    "subtitle": "Otkrijte prednosti suradnje s Korak Servisom",
+    "alternativeSubtitle": "Saznajte što Korak Servis izdvaja od konkurencije",
+    "benefits": [
+      {
+        "title": "Stručnost i iskustvo",
+        "description": "Naši tehničari donose godine iskustva u industriji kako bi pružili vrhunska rješenja."
+      },
+      {
+        "title": "Sigurnost na prvom mjestu",
+        "description": "Sigurnost nam je prioritet u svakom projektu, uz pridržavanje najviših industrijskih standarda."
+      },
+      {
+        "title": "Pouzdana usluga",
+        "description": "Računajte na nas za pravovremenu, pouzdanu uslugu s naglaskom na zadovoljstvo klijenata."
+      }
+    ]
+  },
+  "services": {
+    "title": "Naše usluge",
+    "subtitle": "Sveobuhvatna rješenja za vaš dom ili posao", 
+    "list": 
+      [
+  {
+    "id": "1",
+    "title": "elektroinstalacijski radovi",
+    "list": [
+      "Stambene i poslovne instalacije",
+      "Ugradnja i nadogradnja rasvjete",
+      "Nadogradnja i popravak razvodnih ormara",
+      "Ugradnja punionica za električna vozila",
+      "Dijagnostika kvarova i održavanje"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "hidroizolacijske usluge",
+    "list": [
+      "Hidroizolacija podruma i temelja",
+      "Zaštita krova i zidova od vlage",
+      "Unutarnja i vanjska rješenja",
+      "Prevencija plijesni i gljivica",
+      "Ugradnja energetski učinkovitih barijera"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "ugradnja sigurnosnih sustava",
+    "list": [
+      "Pametni kućni sigurnosni sustavi",
+      "Postavljanje CCTV kamera",
+      "Senzori pokreta i alarmi",
+      "Senzori na vratima i prozorima",
+      "Daljinsko nadgledanje i mobilna upozorenja"
+    ]
+  }
+],
+"linkText": "Saznajte više"
+  },
+  "executedWorks": {
+    "title": "Naši izvedeni radovi",
+    "subtitle": "Prikaz naših uspješnih instalacija i rješenja",
+    "list": [
+  { 
+    "id": "1",
+    "imageSource": "/photo-1.jpg",
+    "imageAlt": "Izvedeni komercijalni radovi",
+    "title": "Industrijska hidroizolacija",
+    "description": "Sveobuhvatna hidroizolacija podruma industrijskog objekta",
+    "year": "2023"
+  },
+  {
+    "id": "2",
+    "imageSource": "/photo-2.jpg",
+    "imageAlt": "Izvedeni stambeni radovi",
+    "title": "Industrijska hidroizolacija",
+    "description": "Sveobuhvatna hidroizolacija balkona",
+    "year": "2022"
+  },
+  {
+    "id": "3",
+    "imageSource": "/photo-3.jpg",
+    "imageAlt": "Izvedeni hidroizolacijski radovi",
+    "title": "Industrijska hidroizolacija",
+    "description": "Sveobuhvatna hidroizolacija mosta",
+    "year": "2021"
+  },
+  {
+    "id": "4",
+    "imageSource": "/photo-4.jpg",
+    "imageAlt": "Izvedeni komercijalni radovi",
+    "title": "Industrijska hidroizolacija",
+    "description": "Sveobuhvatna hidroizolacija podruma industrijskog objekta",
+    "year": "2023"
+  },
+  {
+    "id": "5",
+    "imageSource": "/photo-5.jpg",
+    "imageAlt": "Izvedeni stambeni sigurnosni sustav",
+    "title": "Stambeni sigurnosni sustav",
+    "description": "Pametni kućni sigurnosni sustav s CCTV-om i mobilnim nadzorom",
+    "year": "2022"
+  },
+  {
+    "id": "6",
+    "imageSource": "/photo-6.jpg",
+    "imageAlt": "Izvedeni stambeni radovi",
+    "title": "Stambeni sigurnosni sustav",
+    "description": "Pametni kućni sigurnosni sustav s CCTV-om i mobilnim nadzorom",
+    "year": "2021"
+  },
+  {
+    "id": "7",
+    "imageSource": "/photo-7.jpg",
+    "imageAlt": "Izvedeni komercijalni radovi",
+    "title": "Stambeni sigurnosni sustav",
+    "description": "Pametni kućni sigurnosni sustav s CCTV-om i mobilnim nadzorom",
+    "year": "2023"
+  },
+  {
+    "id": "8",
+    "imageSource": "/photo-8.jpg",
+    "imageAlt": "Izvedeni stambeni radovi",
+    "title": "Stambeni sigurnosni sustav",
+    "description": "Pametni kućni sigurnosni sustav s CCTV-om i mobilnim nadzorom",
+    "year": "2022"
+  },
+  {
+    "id": "9",
+    "title": "Komercijalne instalacije",
+    "description": "Potpuna ugradnja električnog sustava za poslovni kompleks površine 50.000 m²",
+    "imageSource": "/photo-9.jpg",
+    "imageAlt": "Izvedeni elektro radovi",
+    "year": "2021"
+  },
+  {
+    "id": "10",
+    "title": "Komercijalne instalacije",
+    "description": "Potpuna ugradnja električnog sustava za poslovni kompleks površine 50.000 m²",
+    "imageSource": "/photo-11.jpg",
+    "imageAlt": "Izvedeni komercijalni radovi",
+    "year": "2022"
+  },
+  {
+    "id": "11",
+    "title": "Komercijalne instalacije",
+    "description": "Potpuna ugradnja električnog sustava za poslovni kompleks površine 50.000 m²",
+    "imageSource": "/photo-12.jpg",
+    "imageAlt": "Izvedeni komercijalni radovi",
+    "year": "2021"
+  }
+]
+,
+"executedYearText": "Završeno",
+"openModalText": "Pogledaj sliku",
+    "imageAlt": "Izvedeni rad – u punoj veličini",
+    "closeButtonAriaLabel": "Zatvori modalni prozor"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Molimo opišite svoje pitanje i mi ćemo vam odgovoriti",
+    "form": {
+      "nameLabel": "Ime",
+      "requiredNameMessage": "Ime je obavezno",
+      "nameInvalidMessage": "Ime mora sadržavati najmanje 2 znaka",
+      "emailLabel": "Email",
+      "requiredEmailMessage": "Email je obavezan",
+      "emailInvalidMessage": "Unesite valjanu email adresu",
+      "messageLabel": "Poruka",
+      "requiredMessageMessage": "Poruka je obavezna",
+      "messageInvalidMessage": "Poruka mora sadržavati najmanje 10 znakova",
+      "processingMessage": "Slanje...",
+      "submitButton": "Pošalji poruku",
+      "successMessage": "Email je uspješno poslan!",
+      "errorMessage": "Slanje emaila nije uspjelo."
+    }
+  },
+  "footer": {
+    "title": "KORAK SERVIS",
+    "paragraph": "Profesionalna električna i sigurnosna rješenja za stambene i poslovne klijente. Pouzdani stručnjaci s godinama iskustva.",
+    "contactSubtitle": "Kontaktirajte nas",
+    "phone": "+385 91 615 4914",
+    "phoneAriaLabel": "Telefonski broj",
+    "email": "korakservis@gmail.com",
+    "emailAriaLabel": "Email adresa",
+    "address": "Ulica Ljudevita Gaja 7A, 47240, Slunj",
+    "addressAriaLabel": "Adresa",
+    "quickLinksSubtitle": "Brzi linkovi",
+    "copyright": "KORAK SERVIS d.o.o. Sva prava pridržana."
+  }
+}

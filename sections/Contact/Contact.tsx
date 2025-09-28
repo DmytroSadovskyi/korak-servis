@@ -1,13 +1,16 @@
-import {ContactForm} from "@/components/ContactForm";
+import { ContactForm } from "@/components/ContactForm";
+import croatianLang from "@/messages/hr.json";
 
 export const Contact = () => {
+
+const {contact: {title, subtitle}} = croatianLang;
 
   return (
     <section className="contact section" id="contact">
       <div className="container">
         <div className="section-title">
-          <h2>Contact Us</h2>
-          <p>Please describe your question and we will answer you</p>
+          <h2>{title}</h2>
+          <p>{subtitle}</p>
         </div>
        <ContactForm/>
       </div>

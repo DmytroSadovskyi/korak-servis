@@ -1,24 +1,31 @@
+import { NextIntlClientProvider } from 'next-intl';
+import { getLocale } from 'next-intl/server';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { Header } from '../layout/Header';
 import { Footer } from '../layout/Footer';
+import croatianLang from '../messages/hr.json';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
+const { title, description } = croatianLang.metaData;
+
 export const metadata = {
-  title: 'Korak Servis - Professional Electrical & Security Solutions',
-  description: 'Your trusted partner for electrical, insulation, and security system needs',
+  title: title,
+  description: description,
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = await  getLocale() || 'hr';
+  const messages = await import(`../messages/${locale}.json`).then((mod) => mod.default);
   return (
-    <html lang="en">
-      <head>
-        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> */}
-      </head>
+    <html lang={locale}>
       <body className={inter.className}>
-        <Header/>
-        {children}
+       
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
         <Footer/>
       </body>
     </html>

@@ -6,8 +6,11 @@ import toast, { Toaster } from 'react-hot-toast';
 import { SubmitHandler } from 'react-hook-form';
 import { FormData } from '@/types';
 import { sendEmail } from '@/app/actions/sendMail';
+import croatianLang from '@/messages/hr.json';
 
 export const ContactForm = () => {
+
+  const {contact: {form:{nameLabel,requiredNameMessage,nameInvalidMessage,requiredEmailMessage,requiredMessageMessage,emailInvalidMessage,submitButton,processingMessage,emailLabel,errorMessage,messageInvalidMessage,messageLabel, successMessage}}} = croatianLang;
 
   const {
     register,
@@ -23,9 +26,9 @@ export const ContactForm = () => {
     const response = await sendEmail(data);
     setLoading(false);
     if (response.success) {
-      toast.success('Email sent successfully!');
+      toast.success(successMessage);
     } else {
-      toast.error('Failed to send email.');
+      toast.error(errorMessage);
     }
     reset();
   };
@@ -34,13 +37,13 @@ export const ContactForm = () => {
    <form className="contact-form" onSubmit={handleSubmit(onSubmit)} noValidate>
       
           <div className="form-group">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">{nameLabel}</label>
             <input
               id="name"
               type="text"
               {...register('name', {
-                required: 'Name is required',
-                minLength: { value: 2, message: 'Name must be at least 2 characters' },
+                required: requiredNameMessage,
+                minLength: { value: 2, message: nameInvalidMessage },
               })}
               aria-invalid={errors.name ? 'true' : 'false'}
             />
@@ -48,15 +51,15 @@ export const ContactForm = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">{emailLabel}</label>
             <input
               id="email"
               type="email"
               {...register('email', {
-                required: 'Email is required',
+                required: requiredEmailMessage,
                 pattern: {
                   value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                  message: 'Please enter a valid email address',
+                  message: emailInvalidMessage,
                 },
               })}
               aria-invalid={errors.email ? 'true' : 'false'}
@@ -65,13 +68,13 @@ export const ContactForm = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">{messageLabel}</label>
             <textarea
               id="message"
               rows={5}
               {...register('message', {
-                required: 'Message is required',
-                minLength: { value: 10, message: 'Message must be at least 10 characters' },
+                required: requiredMessageMessage,
+                minLength: { value: 10, message: messageInvalidMessage },
               })}
               aria-invalid={errors.message ? 'true' : 'false'}
             ></textarea>
@@ -79,7 +82,7 @@ export const ContactForm = () => {
           </div>
 
           <button type="submit" className="btn" disabled={loading}>
-            {loading ? 'Sending...' : 'Send Message'}
+            {loading ? processingMessage : submitButton}
           </button>
         </form>
 

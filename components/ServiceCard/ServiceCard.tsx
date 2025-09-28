@@ -4,8 +4,11 @@ import { FaShieldAlt } from 'react-icons/fa';
 import { FaBolt, FaHouseFloodWater } from 'react-icons/fa6';
 import { IServiceCardProps } from './props';
 import { LinkToSection } from '../LinkToSection';
+import croatianLang from '@/messages/hr.json';
 
 export const ServiceCard = ({ title, list }: IServiceCardProps) => {
+
+  const {services: {linkText}} = croatianLang;
  
   const setIcon = (title: string) => {
     switch (title) { 
@@ -30,7 +33,7 @@ export const ServiceCard = ({ title, list }: IServiceCardProps) => {
                   <li key={index}>{item}</li>
                 ))}
               </ul>
-             <LinkToSection href="#contact" className="btn">Learn More</LinkToSection>
+             <LinkToSection href="#contact" className="btn">{linkText}</LinkToSection>
             </div>
           </li>
   );

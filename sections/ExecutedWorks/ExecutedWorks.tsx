@@ -2,10 +2,12 @@
 import Image from "next/image";
 import { useState } from "react";
 import { ExecutedWorksList } from "@/components/ExecutedWorkList";
-import executedWorks from '@/data/executedWorks.json'
+import croatianLang from '@/messages/hr.json';
 
 export const ExecutedWorks = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const {executedWorks: {title, subtitle, list, imageAlt,closeButtonAriaLabel}} = croatianLang;
 
   const handleImageClick = (src: string) => {
     setSelectedImage(src);
@@ -21,18 +23,18 @@ export const ExecutedWorks = () => {
     <section className="projects section" id="executed-works">
       <div className="container">
         <div className="section-title">
-          <h2>Our Executed Works</h2>
-          <p>Showcasing our successful installations and solutions</p>
+          <h2>{title}</h2>
+          <p>{subtitle}</p>
         </div>
-        <ExecutedWorksList executedWorks={executedWorks} handleImageClick={handleImageClick} />
+        <ExecutedWorksList executedWorks={list} handleImageClick={handleImageClick} />
       </div>
       {selectedImage && (
         <div className="modal" onClick={closeModal}>
           <div className="modal-content">
-            <span className="close-btn" onClick={closeModal}>&times;</span>
+            <span className="close-btn" onClick={closeModal} aria-label={closeButtonAriaLabel}>&times;</span>
             <Image
               src={selectedImage}
-              alt="Full-size Executed Work"
+              alt={imageAlt}
               width={800}
               height={600}
               style={{ maxWidth: "100%", height: "auto" }}

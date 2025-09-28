@@ -1,14 +1,20 @@
+
 import { LinkToSection } from '@/components/LinkToSection';
+import croatianLang from '@/messages/hr.json';
+
 
 export const Hero = () => {
+
+const {hero: {title, subtitle, firstLinkText, secondLinkText}} = croatianLang;
+
   return (
     <section className="hero section" id="home">
       <div className="container hero-content">
-        <h2>Professional Electrical & Security Solutions</h2>
-        <p>Your trusted partner for all electrical, insulation, and security system needs</p>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
         <div className="hero-buttons">
-          <LinkToSection href="#services" className="btn">Our Service</LinkToSection>
-          <LinkToSection href="#contact" className="btn btn-outline">Get a Free Quote</LinkToSection>
+          <LinkToSection href="#services" className="btn">{firstLinkText}</LinkToSection>
+          <LinkToSection href="#contact" className="btn btn-outline">{secondLinkText}</LinkToSection>
         </div>
       </div>
     </section>

@@ -1,20 +1,25 @@
 import { LinkToSection } from '@/components/LinkToSection';
 import Image from 'next/image';
+import croatianLang from '@/messages/hr.json';
 
 export const About = () => {
+
+const {about: {title,firstSubtitle,secondSubtitle,thirdSubtitle,linkText,imageAlt,linkHref}} = croatianLang;
+
   return (
     <section className="about section" id="about">
       <div className="container">
         <div className="about-grid">
           <div className="about-content">
-            <h2>About Korak Servis</h2>
-            <p>With years of experience in the industry, Korak Servis has established itself as a trusted provider of professional electrical and security solutions for both residential and commercial clients.</p>
-            <p>Our technicians are committed to delivering high-quality workmanship, using the latest tools and technologies to ensure your complete satisfaction.</p>
-            <p>We pride ourselves on our reliability, attention to detail, and commitment to safety in every project we undertake.</p>
-            <LinkToSection href="#contact" className="btn">Contact Us Today</LinkToSection>
+            <h2>{title}</h2>
+            <p>{firstSubtitle}</p>
+            <p>{secondSubtitle}</p>
+            <p>{thirdSubtitle}</p>
+           
+            <LinkToSection href={linkHref} className="btn">{linkText}</LinkToSection>
           </div>
           <div className="about-image">
-            <Image src="/photo-14.jpg" alt="Korak Servis Team" width={0}
+            <Image src="/photo-14.jpg" alt={imageAlt} width={0}
   height={0}
   sizes="100vw"
   style={{ width: '100%', height: 'auto' }} />

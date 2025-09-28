@@ -1,0 +1,246 @@
+{
+  "metaData": {
+    "title": "Korak Servis - Professional Electrical & Security Solutions",
+    "description": "Your trusted partner for all electrical, insulation, and security system needs"
+  },
+  "LocaleSwitcher": {
+    "hr": "Croatian",
+    "en": "English",
+    "label": "Language"
+  },
+  "header": {
+    "logoAlt": "Korak Servis Logo", 
+    "toggleAriaLabel": "menu button",
+    "links": [
+      { "name": "Home", 
+        "href": "#home" 
+      },
+      { "name": "About Us", 
+         "href": "#about"
+      },
+      { 
+        "name": "Why Choose Us", 
+        "href": "#why-choose-us" 
+      },
+      { 
+       "name": "Services",
+       "href": "#services"
+      },
+      { 
+       "name": "Executed Works",
+       "href": "#executed-works" 
+      },
+  
+      { 
+      "name": "Contact", 
+      "href": "#contact" 
+      }
+    ]
+  },
+  "hero":{
+    "title": "Professional Electrical & Security Solutions",
+    "subtitle": "Your trusted partner for all electrical, insulation, and security system needs",
+    "firstLinkText": "Our Services",
+    "secondLinkText": "Get a Free Quote"
+  },
+  "about": {
+    "title": "About Korak Servis",
+    "firstSubtitle": "With years of experience in the industry, Korak Servis has established itself as a trusted provider of professional electrical and security solutions for both residential and commercial clients.",
+    "secondSubtitle": "Our technicians are committed to delivering high-quality workmanship, using the latest tools and technologies to ensure your complete satisfaction.",
+    "thirdSubtitle": "We pride ourselves on our reliability, attention to detail, and commitment to safety in every project we undertake.",
+    "linkText": "Contact Us Today",
+    "imageAlt": "Korak Servis Team",
+    "linkHref": "#contact"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "subtitle": "Discover the benefits of working with Korak Servis",
+    "alternativeSubtitle": "Discover what sets Korak Servis apart from the competition",
+    "benefits": [
+      {
+        "title": "Expertise & Experience",
+        "description": "Our technicians bring years of industry experience to deliver top-quality solutions."
+      },
+      {
+        "title": "Safety First",
+        "description": "We prioritize safety in every project, adhering to the highest industry standards."
+      },
+      {
+        "title": "Reliable Service",
+        "description": "Count on us for timely, dependable service with a focus on customer satisfaction."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for your home or business",
+    "list":[
+  {
+    "id": "1",
+    "title": "electrical work",
+    "list": [
+      "Residential & Commercial Wiring",
+      "Lighting Installation & Upgrades",
+      "Panel Upgrades & Repairs",
+      "EV Charger Installation",
+      "Troubleshooting & Maintenance"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "hydro insulation services",
+    "list": [
+      "Basement & Foundation Waterproofing",
+      "Roof & Wall Moisture Protection",
+      "Interior & Exterior Solutions",
+      "Mold & Mildew Prevention",
+      "Energy-Efficient Barrier Installations"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "security system installation",
+    "list": [
+      "Smart Home Security Systems",
+      "CCTV Camera Setup",
+      "Motion Detectors & Alarms",
+      "Door & Window Sensors",
+      "Remote Monitoring & Mobile Alerts"
+    ]
+  }
+ 
+],
+  "linkText": "Learn More"
+  },
+  "executedWorks": {
+    "title": "Our Executed Works",
+    "subtitle": "Showcasing our successful installations and solutions",
+    "list": [
+  { 
+    "id": "1",
+    "imageSource": "/photo-1.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "title": "Industrial Waterproofing",
+    "description": "Comprehensive waterproofing for industrial facility basement",
+    "year": "2023"
+  },
+  {
+    "id": "2",
+    "imageSource": "/photo-2.jpg",
+    "imageAlt": "Residential Executed Work",
+    "title": "Industrial Waterproofing",
+    "description": "Comprehensive waterproofing for the balcony",
+    "year": "2022"
+  },
+  {
+    "id": "3",
+    "imageSource": "/photo-3.jpg",
+    "imageAlt": "Waterproofing Executed Work",
+    "title": "Industrial Waterproofing",
+    "description": "Comprehensive waterproofing for a bridge",
+    "year": "2021"
+  },
+  {
+    "id": "4",
+    "imageSource": "/photo-4.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "title": "Industrial Waterproofing",
+    "description": "Comprehensive waterproofing for industrial facility basement",
+    "year": "2023"
+  },
+  {
+    "id": "5",
+    "imageSource": "/photo-5.jpg",
+    "imageAlt": "Residential Security System Executed Work",
+    "title": "Residential Security System",
+    "description": "Smart home security installation with CCTV and mobile monitoring",
+    "year": "2022"
+  },
+  {
+    "id": "6",
+    "imageSource": "/photo-6.jpg",
+    "imageAlt": "Residential Executed Work",
+    "title": "Residential Security System",
+    "description": "Smart home security installation with CCTV and mobile monitoring",
+    "year": "2021"
+  },
+  {
+    "id": "7",
+    "imageSource": "/photo-7.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "title": "Residential Security System",
+    "description": "Smart home security installation with CCTV and mobile monitoring",
+    "year": "2023"
+  },
+  {
+    "id": "8",
+    "imageSource": "/photo-8.jpg",
+    "imageAlt": "Residential Executed Work",
+    "title": "Residential Security System",
+    "description": "Smart home security installation with CCTV and mobile monitoring",
+    "year": "2022"
+  },
+  {
+    "id": "9",
+    "title": "Commercial Complex Wiring",
+    "description": "Complete electrical system installation for a 50,000 sq ft commercial complex",
+    "imageSource": "/photo-9.jpg",
+    "imageAlt": "Electrical Executed Work",
+    "year": "2021"
+  },
+  {
+    "id": "10",
+    "title": "Commercial Complex Wiring",
+    "description": "Complete electrical system installation for a 50,000 sq ft commercial complex",
+    "imageSource": "/photo-11.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "year": "2022"
+  },
+  {
+    "id": "11",
+    "title": "Commercial Complex Wiring",
+    "description": "Complete electrical system installation for a 50,000 sq ft commercial complex",
+    "imageSource": "/photo-12.jpg",
+    "imageAlt": "Commercial Executed Work",
+    "year": "2021"
+  }
+]
+,
+"executedYearText": "Completed",
+"openModalText": "View Image",
+    "imageAlt": "Full-size Executed Work",
+    "closeButtonAriaLabel": "Close modal"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Please describe your question and we will answer you",
+    "form": {
+      "nameLabel": "Name",
+      "requiredNameMessage": "Name is required",
+      "nameInvalidMessage": "Name must be at least 2 characters",
+      "emailLabel": "Email",
+      "requiredEmailMessage": "Email is required",
+      "emailInvalidMessage": "Please enter a valid email address",
+      "messageLabel": "Message",
+      "requiredMessageMessage": "Message is required",
+      "messageInvalidMessage": "Message must be at least 10 characters",
+      "processingMessage": "Sending...",
+      "submitButton": "Send Message",
+      "successMessage": "Email sent successfully!",
+      "errorMessage": "Failed to send email."
+    }
+  },
+  "footer": {
+    "title": "KORAK SERVIS",
+    "paragraph": "Professional Electrical & Security Solutions for residential and commercial clients. Trusted experts with years of experience.",
+    "contactSubtitle":"Contact Us",
+    "phone": "+385 91 615 4914",
+    "phoneAriaLabel":"Phone number",
+    "email": "korakservis@gmail.com",
+    "emailAriaLabel":"Email address",
+    "address": "Ulica Ljudevita Gaja 7A, 47240, Slunj",
+    "addressAriaLabel":"Address",
+    "quickLinksSubtitle":"Quick Links",
+    "copyright": "KORAK SERVIS d.o.o. All Rights Reserved."
+  }
+}
